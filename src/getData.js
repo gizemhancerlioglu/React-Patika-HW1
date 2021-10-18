@@ -14,8 +14,8 @@ const getData = (user_id) => {
         const allData = [user, post];
 
         (user_id === 1) ?
-            resolve(console.log(allData)) :
-            reject(console.log("parametre değeri 1'den farklı"));
+            console.log(allData) :
+            console.log("parametre değeri 1'den farklı");
 
     });
 
